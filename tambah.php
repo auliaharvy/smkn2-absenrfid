@@ -16,7 +16,7 @@
 		$alamat  = $_POST['alamat'];
 
 		//simpan ke tabel karyawan
-		$simpan = mysqli_query($konek, "insert into siswa(nokartu, nama, tingkat, jurusan, kelas, jenis_kelamin, alamat)values('$nokartu', '$nama', '$tingkat', '$jurusan', '$jurusan', '$kelas', '$jenis_kelamin', '$alamat')");
+		$simpan = mysqli_query($konek, "insert into siswa(nokartu, nama, tingkat, jurusan, kelas, jenis_kelamin, alamat)values('$nokartu', '$nama', '$tingkat', '$jurusan', '$kelas', '$jenis_kelamin', '$alamat')");
 
 		//jika berhasil tersimpan, tampilkan pesan Tersimpan,
 		//kembali ke data karyawan
