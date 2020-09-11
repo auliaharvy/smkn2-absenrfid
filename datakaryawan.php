@@ -21,7 +21,6 @@
 					<th style="text-align: center">Jurusan</th>
 					<th style="text-align: center">Kelas</th>
 					<th style="text-align: center">Jenis Kelamin</th>
-					<th style="text-align: center">Alamat</th>
 					<th style="text-align: center">No Hp</th>
 					<th style="width: 100px; text-align: center">Aksi</th>
 				</tr>
@@ -49,7 +48,7 @@
 					<td> <?php echo $data['kelas']; ?> </td>
 					<td> <?php echo $data['jenis_kelamin']; ?> </td>
 					<td> <?php echo $data['alamat']; ?> </td>
-					<td> <?php echo $data['no_hp']; ?> </td>
+					<td>
 						<a href="edit.php?id=<?php echo $data['id']; ?>"> Edit</a> | <a href="hapus.php?id=<?php echo $data['id']; ?>"> Hapus</a>
 					</td>
 				</tr>

@@ -111,8 +111,8 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label>Alamat</label>
-				<textarea class="form-control" name="alamat" id="alamat" placeholder="alamat" style="width: 400px"></textarea>
+				<label>No Hp</label>
+				<textarea class="form-control" name="alamat" id="alamat" placeholder="No Hp" style="width: 400px"></textarea>
 			</div>
 
 			<button class="btn btn-primary" name="btnSimpan" id="btnSimpan">Simpan</button>
