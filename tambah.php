@@ -39,10 +39,11 @@
 			";
 		}
 
+		//kosongkan tabel tmprfid
+	mysqli_query($konek, "delete from tmprfid");
 	}
 
-	//kosongkan tabel tmprfid
-	mysqli_query($konek, "delete from tmprfid");
+	
 ?>
 
 <!DOCTYPE html>
