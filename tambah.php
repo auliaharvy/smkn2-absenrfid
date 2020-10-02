@@ -57,7 +57,7 @@
 		$(document).ready(function(){
 			setInterval(function(){
 				$("#norfid").load('nokartu.php')
-			}, 0);  //pembacaan file nokartu.php, tiap 1 detik = 1000
+			}, 1000);  //pembacaan file nokartu.php, tiap 1 detik = 1000
 		});
 	</script>
 
