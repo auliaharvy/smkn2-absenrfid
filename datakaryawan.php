@@ -21,7 +21,7 @@
 					<th style="text-align: center">Jurusan</th>
 					<th style="text-align: center">Kelas</th>
 					<th style="text-align: center">Jenis Kelamin</th>
-					<th style="text-align: center">No Hp</th>
+					<th style="text-align: center">Alamat</th>
 					<th style="width: 100px; text-align: center">Aksi</th>
 				</tr>
 			</thead>

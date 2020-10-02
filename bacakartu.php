@@ -21,25 +21,12 @@
 	// baca tabel tmprfid
 	$baca_kartu = mysqli_query($konek, "select * from tmprfid");
 	$data_kartu = mysqli_fetch_array($baca_kartu);
-	if($data_kartu != null)
 	$nokartu    = $data_kartu['nokartu'];
-	else
-	$nokartu	= "";
-
-	
-	
 ?>
 
 
 <div class="container-fluid" style="text-align: center;">
 	<?php if($nokartu=="") { ?>
-		<?php 
-			//tanggal dan jam hari ini
-			date_default_timezone_set('Asia/Jakarta') ;
-			$tanggal = date('d-m-Y');
-			$jam     = date('H:i:s');
-			echo $tanggal ,' ', $jam?>
-
 	<h3>Silahkan Tempelkan Kartu RFID Anda</h3>
 	<img src="images/rfid.png" style="width: 200px"> <br>
 	<img src="images/animasi2.gif">

@@ -3,12 +3,8 @@
 	//baca isi tabel tmprfid
 	$sql = mysqli_query($konek, "select * from tmprfid");
 	$data = mysqli_fetch_array($sql);
-	if($data != null)
-	$nokartu    = $data['nokartu'];
-	else
-	$nokartu	= "";
 	//baca nokartu
-	// $nokartu = $data['nokartu'];
+	$nokartu = $data['nokartu'];
 ?>
 
 <div class="form-group">
