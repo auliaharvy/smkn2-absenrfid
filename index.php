@@ -10,7 +10,7 @@
 	<!-- isi -->
 	<div class="container-fluid" style="padding-top: 10%; text-align: center">
 		<h1>
-			Selamat Datang <br>
+			SELAMAT DATANG <br>
 			SISTEM ABSENSI SISWA <br>
 			SMKN 2 CIKARANG BARAT
 		</h1>
